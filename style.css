@@ -55,4 +55,7 @@ a {
     ul {
         max-width: 300px;        
     }
+    footer > h3 {
+        font-size: 0.9rem;
+    }    
 }
