@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
+    margin: 1.5rem 0 2rem 0;
+}
+#title {
+    margin: 1.5rem 0 0.5rem 0;
+}
+#img-div {
+    width: 100%;
+}
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#img-caption {
+    display: block;
+    margin: 1px 0 0 0;
+    font-weight: 800;
+}
+#tribute-info {
+    margin: 20px 0 0 0;
+}
+#tribute-info > h1 {
+    margin: 0 0 2rem 0;
+}
+ul {
+    margin: 0 auto 50px auto;
+    text-align: left;
+    width: 550px;
+}
+li {
+    text-align: left;
+    margin: 10px 0;
+}
+footer {
+    margin: 0 0 20px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* Breakpoints */
+@media screen and (max-width: 480px) {
+    #image {
+        width: 310px;
+    } 
+    ul {
+        max-width: 300px;        
+    }
+}
